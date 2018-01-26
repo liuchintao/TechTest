@@ -11,7 +11,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 public class MyJavaParser {
 
 	//Printing the CompilationUnit to System output
-	public static void cuPrint(String[] args) throws Exception{
+	public static void cuPrint() throws Exception{
 		//get compilation unit.
 		CompilationUnit cu = getCU();
 		
