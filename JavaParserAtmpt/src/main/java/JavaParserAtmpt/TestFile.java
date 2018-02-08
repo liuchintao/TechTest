@@ -30,7 +30,7 @@ public class TestFile {
 	}
 
 	// This is function3 with parameter.
-	public void testFunction3(int test) {
+	public void testFunction3(int test1, int test2) {
 		/**
 		 * @param test:
 		 *            this is test parameter of testFunction3
@@ -82,5 +82,17 @@ public class TestFile {
 		case 2: System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));break;
 		default: System.out.println("SWITCH CASE parameter is default value.");break;
 		}
+	}
+	
+	public void testVoidBody() {
+		
+	}
+	
+	public void testASemicolonBody() {
+		;
+	}
+	
+	public void testMultiSemicolonBody() {
+		;;
 	}
 }

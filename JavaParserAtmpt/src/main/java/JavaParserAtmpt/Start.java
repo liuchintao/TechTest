@@ -7,6 +7,7 @@ public class Start
         try {
 //			MyJavaParser.methodPrint();
         	MyJavaParser.cuPrint();
+//        	VariableDeclarationExpr vde = new VariableDeclarationExpr();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
