@@ -1,5 +1,8 @@
 package JavaParserAtmpt;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * This is a test file.
  * 
@@ -61,6 +64,12 @@ public class TestFile {
 	
 	//This is function7 that contain for, while and do-while cycle.
 	public void testFunction7() {
+		List<String> ss = new ArrayList<String>();
+		for(String s: ss) {
+			System.out.println("test FOREACH loop.");
+			;
+		}
+		
 		for(int i=0; i<10; i++) {
 			System.out.print("This is FOR loop: " + Integer.toString(i));
 		}
@@ -78,10 +87,20 @@ public class TestFile {
 	//This is function8 that contain SWITCH-CASE logic.
 	public void testFunction8(int arg) {
 		switch(arg) {
-		case 1: System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));break;
-		case 2: System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));break;
+		case 1: {System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));break;}
+		case 2: 
+			System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));
+			System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));
+			if(arg == 2) {
+				System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));
+			}
+			break;
 		default: System.out.println("SWITCH CASE parameter is default value.");break;
 		}
+		
+		if(arg == 1) {System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));}
+		else if(arg == 2) { System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));}
+		else	 System.out.println("SWITCH CASE parameter is: " + Integer.toString(arg));
 	}
 	
 	public void testVoidBody() {
