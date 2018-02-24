@@ -26,7 +26,7 @@ public class OpenExistingRepo {
 				int count = 0;
 				for (RevCommit rev : logs) {
 					System.out.println("Commit: " + rev + ", name: " + rev.getName() + ", id: " + rev.getId().getName()
-							+ "Full message: " + rev.getFullMessage());
+							+ "Full message: " + rev.getFullMessage() + "Author: " + rev.getAuthorIdent());
 					count++;
 				}
 				System.out.println("Had " + count + " commits overall on current branch");
@@ -53,8 +53,7 @@ public class OpenExistingRepo {
 				logs = git.log().all().call();
 				count = 0;
 				for (RevCommit rev : logs) {
-					 System.out.println("Commit: " + rev /* + ", name: " + rev.getName() + ", id:
-					 " + rev.getId().getName() */);
+					 System.out.println("Commit: " + rev +  rev.getTree());
 					count++;
 				}
 				System.out.println("Had " + count + " commits overall in repository");
@@ -72,7 +71,7 @@ public class OpenExistingRepo {
 
 				logs = git.log()
 						// for all log.all()
-						.addPath("pom.xml").call();
+						.addPath("JGitAttempt/pom.xml").call();
 				count = 0;
 				for (RevCommit rev : logs) {
 					// System.out.println("Commit: " + rev /* + ", name: " + rev.getName() + ", id:
