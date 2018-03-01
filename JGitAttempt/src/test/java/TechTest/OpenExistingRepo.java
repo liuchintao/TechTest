@@ -71,11 +71,11 @@ public class OpenExistingRepo {
 
 				logs = git.log()
 						// for all log.all()
-						.addPath("JGitAttempt/pom.xml").call();
+						.addPath("JGitAttempt/.classpath").call();
 				count = 0;
 				for (RevCommit rev : logs) {
-					// System.out.println("Commit: " + rev /* + ", name: " + rev.getName() + ", id:
-					// " + rev.getId().getName() */);
+//					 System.out.println("Commit: " + rev /* + ", name: " + rev.getName() + ", id:
+//					 " + rev.getId().getName() */);
 					count++;
 				}
 				System.out.println("Had " + count + " commits on pom.xml");
