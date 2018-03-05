@@ -58,12 +58,12 @@ public class JGitHelper {
     	return true;
     }
     
-    public static boolean createCommitFile(String commit, String f) throws IOException {
+    public static File createCommitFile(String commit, String f) throws IOException {
     	File file = new File("output/"+ commit + "/" +f);
     	File fp = file.getParentFile();
     	if(!fp.exists()) fp.mkdirs();
     	if(file.createNewFile()) 
     		System.out.println("Create commit file " + f + " successfully.");
-    	return true;
+    	return file;
     }
 }

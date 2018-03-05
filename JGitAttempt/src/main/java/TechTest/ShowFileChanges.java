@@ -1,5 +1,7 @@
 package TechTest;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
@@ -28,10 +30,12 @@ import TechTest.helper.JGitHelper;
 public class ShowFileChanges {
 
 	public static void main(String[] args) throws IOException, GitAPIException {
+		String oldc = "7d242b852af9fd48b16229024887937aef677a09";
+		String newc = "a6ff0ae25fe4b1ccd69331cb465129ffaadbba6e";
 		try(Repository repo = JGitHelper.openJGitCookbookRepository()){
-			AbstractTreeIterator oldTreeParser = prepareTreeParser(repo, "7d242b852af9fd48b16229024887937aef677a09");
-			AbstractTreeIterator newTreeParser = prepareTreeParser(repo, "a6ff0ae25fe4b1ccd69331cb465129ffaadbba6e");
-			
+			AbstractTreeIterator oldTreeParser = prepareTreeParser(repo, oldc);
+			AbstractTreeIterator newTreeParser = prepareTreeParser(repo, newc);
+			JGitHelper.createNewFolder(newc);
 			try(Git git = new Git(repo)){
 				List<DiffEntry> diffs = git.diff().
 						setOldTree(oldTreeParser).
@@ -39,8 +43,11 @@ public class ShowFileChanges {
 //						setPathFilter(PathSuffixFilter.create(".java")).
 						call();
 				for(DiffEntry entry: diffs) {
+					String pth = entry.getNewPath();
+					File out = JGitHelper.createCommitFile(newc, pth);
+					FileOutputStream output = new FileOutputStream(out);
 					System.out.println("Entry: " + entry + ", from: " + entry.getOldId() + ", to: " + entry.getNewId());
-					try(DiffFormatter formatter = new DiffFormatter(System.out)){
+					try(DiffFormatter formatter = new DiffFormatter(output)){
 						formatter.setRepository(repo);
 						formatter.format(entry);
 					}
