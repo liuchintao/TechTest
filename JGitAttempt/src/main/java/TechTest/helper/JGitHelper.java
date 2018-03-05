@@ -35,4 +35,35 @@ public class JGitHelper {
 
         return repository;
     }
+    
+    public static boolean createNewFolder(String commit) {
+    	/**
+    	 * Create folder named by commit id under the project first level folder prjt/out/.
+    	 * @param commit : certain commit name.
+    	 */
+    	File out = new File("output");
+    	if(!out.exists()) {
+    		if(out.mkdir())	System.out.println("Init output folder sucessfully.");
+    		else {
+    			System.out.println("Init output folder failed.");
+    			return false;
+    		}
+    	}
+    	File folder = new File("output/" + commit);
+    	if(!folder.exists()) {
+    		if(folder.mkdir())
+        		System.out.println("Init commit folder sucessfully.");
+        	else	return false;	
+    	}
+    	return true;
+    }
+    
+    public static boolean createCommitFile(String commit, String f) throws IOException {
+    	File file = new File("output/"+ commit + "/" +f);
+    	File fp = file.getParentFile();
+    	if(!fp.exists()) fp.mkdirs();
+    	if(file.createNewFile()) 
+    		System.out.println("Create commit file " + f + " successfully.");
+    	return true;
+    }
 }

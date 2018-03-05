@@ -29,8 +29,8 @@ public class ShowFileChanges {
 
 	public static void main(String[] args) throws IOException, GitAPIException {
 		try(Repository repo = JGitHelper.openJGitCookbookRepository()){
-			AbstractTreeIterator oldTreeParser = prepareTreeParser(repo, "2a942bd5bad3c9e4b2aab738efb39970615d5642");
-			AbstractTreeIterator newTreeParser = prepareTreeParser(repo, "65997a82cf1ecb7b6612a63885e54ca71a868bbc");
+			AbstractTreeIterator oldTreeParser = prepareTreeParser(repo, "7d242b852af9fd48b16229024887937aef677a09");
+			AbstractTreeIterator newTreeParser = prepareTreeParser(repo, "a6ff0ae25fe4b1ccd69331cb465129ffaadbba6e");
 			
 			try(Git git = new Git(repo)){
 				List<DiffEntry> diffs = git.diff().
