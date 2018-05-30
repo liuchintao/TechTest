@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__org_apache_clerezza_ext_org_json_simple_0_3_incubating.xml b/.idea/libraries/Maven__org_apache_clerezza_ext_org_json_simple_0_3_incubating.xml
+new file mode 100644
+index 0000000..d7ad70b
+--- /dev/null
++++ b/.idea/libraries/Maven__org_apache_clerezza_ext_org_json_simple_0_3_incubating.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.clerezza.ext:org.json.simple:0.3-incubating">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/ext/org.json.simple/0.3-incubating/org.json.simple-0.3-incubating.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/ext/org.json.simple/0.3-incubating/org.json.simple-0.3-incubating-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/ext/org.json.simple/0.3-incubating/org.json.simple-0.3-incubating-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

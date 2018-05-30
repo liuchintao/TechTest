@@ -1,0 +1,14 @@
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+index 0000000..13e24f7
+--- /dev/null
++++ b/.idea/encodings.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/ImgAnnotator" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/resources/static/js/Main2Selector.js" charset="GBK" />
++  </component>
++</project>
+\ No newline at end of file

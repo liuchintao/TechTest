@@ -1,0 +1,153 @@
+diff --git a/resources/static/html/Nodiff/choosePage.html b/resources/static/html/Nodiff/choosePage.html
+new file mode 100644
+index 0000000..b60be70
+--- /dev/null
++++ b/resources/static/html/Nodiff/choosePage.html
+@@ -0,0 +1,146 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>区域划分导航</title>
++    <link href="../../css/bootstrap.css" rel="stylesheet">
++    <script src="../../js/jquery-3.3.1.min.js"></script>
++    <script src="../../js/bootstrap.js"></script>
++    <script src="../../js/Main2Selector.js"></script>
++
++    <script>
++        $(document).ready(function () {
++            const
++                pTitle = ['整体标记', '局部标记', '区域标记'],
++                pDes = ['您只需对某张图片用一句话进行描述，描述应涵盖图片中所有的关键要素。',
++                    '您需要用方框框出图片关键部分，并对其加标签。',
++                    '您需要根据要求把图片中的相应部分框选出来，越精确越好。'];
++                pTarget = ['../district/markDistrict.html'];
++            let
++                pCounter = -1;
++
++            let str = UrlParm.parm('category');
++            switch (str) {
++                case 'entire':
++                    pCounter = 0;
++                    break;
++                case 'partial':
++                    pCounter = 1;
++                    break;
++                case 'area':
++                    pCounter = 2;
++                    break;
++            }
++
++            $('#titlePart').text(pTitle[pCounter]);
++            $('#desPart').text(pDes[pCounter]);
++
++        });
++    </script>
++</head>
++<body>
++<div class="container">
++    <!--外部调用不能重复导入css和js文件，否则下拉框不能显示-->
++    <div id="nav"></div>
++    <script>
++        $("#nav").load("../util/navigation.html");
++    </script>
++
++    <div class="row clearfix">
++        <div class="col-md-12 column">
++            <div class="row clearfix">
++                <div class="col-md-12 column">
++                    <div class="jumbotron">
++                        <h1 id="titlePart">
++                            区域划分
++                        </h1>
++                        <p id="desPart">
++                            您需要根据要求把图片中的相应部分框选出来，越精确越好。
++                        </p>
++                        <p>
++                            <a class="btn btn-color btn-large" href="#firstPic"> 立刻开始</a>
++                        </p>
++                    </div>
++                </div>
++            </div>
++            <div class="row clearfix" style="margin-top: 2%" id="firstPic">
++                <div class="col-md-12 column">
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                </div>
++            </div>
++            <div class="row clearfix">
++                <div class="col-md-12 column" style="margin-top: 2%">
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                </div>
++            </div>
++            <div class="row clearfix">
++                <div class="col-md-12 column" style="margin-top: 2%">
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                </div>
++            </div>
++        </div>
++    </div>
++    <div class="row clearfix">
++        <div class="col-md-6 column">
++        <ul class="pagination">
++            <li>
++                <a href="#">上一页</a>
++            </li>
++        </ul>
++    </div>
++    <div class="col-md-6 column" style="padding-left: 42.5%">
++        <ul class="pagination">
++            <li>
++                <a href="#">下一页</a>
++            </li>
++        </ul>
++    </div>
++</div>
++</div>
++</body>
++</html>
+\ No newline at end of file

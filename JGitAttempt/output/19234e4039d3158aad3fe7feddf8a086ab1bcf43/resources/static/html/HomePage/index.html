@@ -1,0 +1,258 @@
+diff --git a/resources/static/html/HomePage/index.html b/resources/static/html/HomePage/index.html
+new file mode 100644
+index 0000000..7339fd2
+--- /dev/null
++++ b/resources/static/html/HomePage/index.html
+@@ -0,0 +1,251 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>ImgAnnotator——图片标注系统</title>
++    <link href="../../css/bootstrap.css" rel="stylesheet">
++    <script src="../../js/jquery-3.3.1.min.js"></script>
++    <script src="../../js/bootstrap.js"></script>
++
++
++</head>
++<body>
++<div class="container">
++    <!--外部调用不能重复导入css和js文件，否则下拉框不能显示-->
++    <div id="nav"></div>
++    <script>
++        $("#nav").load("../util/navigation.html");
++    </script>
++
++    <div class="row clearfix">
++        <div class="col-md-12 column">
++
++            <!--顶部幻灯片浏览-->
++            <div class="carousel slide" id="carousel-865897">
++                <ol class="carousel-indicators">
++                    <li class="active" data-slide-to="0" data-target="#carousel-865897">
++                    </li>
++                    <li data-slide-to="1" data-target="#carousel-865897">
++                    </li>
++                    <li data-slide-to="2" data-target="#carousel-865897">
++                    </li>
++                </ol>
++                <div class="carousel-inner">
++                    <div class="item active">
++                        <a href="../Nodiff/choosePage.html?category=entire">
++                            <img alt=""
++                                 src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/1/default.jpg"/>
++                            <div class="carousel-caption">
++                                <h4>
++                                    整体标注
++                                </h4>
++                                <p>
++                                    您可以对图片给予整体标注，选择图片中出现的元素以及用一句话描述该图片
++                                </p>
++                            </div>
++                        </a>
++                    </div>
++                    <div class="item">
++                        <a href="../Nodiff/choosePage.html?category=partial">
++                            <img alt=""
++                                 src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/2/default.jpg"/>
++                            <div class="carousel-caption">
++                                <h4>
++                                    局部标注
++                                </h4>
++                                <p>
++                                    您可以框选图片部分区域，并对其进行标注
++                                </p>
++                            </div>
++                        </a>
++                    </div>
++                    <div class="item">
++                        <a href="../Nodiff/choosePage.html?category=area">
++                            <img alt=""
++                                 src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/3/default.jpg"/>
++                            <div class="carousel-caption">
++                                <h4>
++                                    区域划分
++                                </h4>
++                                <p>
++                                    您可以将图片划分为若干个区域
++                                </p>
++                            </div>
++                        </a>
++                    </div>
++                </div>
++                <a class="left carousel-control" href="#carousel-865897" data-slide="prev"><span
++                        class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control"
++                                                                                href="#carousel-865897"
++                                                                                data-slide="next"><span
++                    class="glyphicon glyphicon-chevron-right"></span></a>
++            </div>
++        </div>
++    </div>
++    <!--这边需要及时更新图片-->
++    <div class="row clearfix">
++        <div class="col-md-12 column">
++            <br>
++            <h4>
++                整体标注
++            </h4>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink1" href="../entirely/markEntirely.html">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink1" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink1" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink1" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column" style="padding: 1px 1px 1px 1px">
++                <!--最后一张图片用查看更多来显示-->
++                <a href="../Nodiff/choosePage.html?category=entireHt">
++                    <img class="indexImg loadingMore"
++                         src="../../images/loading1.png"/>
++                </a>
++            </div>
++        </div>
++
++        <div class="col-md-12 column">
++            <br>
++            <h4>
++                局部标注
++            </h4>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink2" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink2" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink2" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink2" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <!--最后一张图片用查看更多来显示-->
++            <a href="../Nodiff/choosePage.html?category=partialHt">
++                <img class="indexImg loadingMore"
++                     src="../../images/loading1.png"/>
++            </a>
++        </div>
++
++        <div class="col-md-12 column">
++            <br>
++            <h4>
++                区域划分
++            </h4>
++
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink3" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink3" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink3" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <div class="col-md-2 column"
++                 style="border: 1px solid #bebebe; height:100%; width:19.8%; padding: 0.1% 0.1% 0.1% 0.1%; margin-right: 0.2%">
++                <a class="indexLink3" href="">
++                    <center><img class="indexPicture indexImg" alt="图片加载中……"/></center>
++                </a>
++            </div>
++            <!--最后一张图片用查看更多来显示-->
++            <a href="../Nodiff/choosePage.html?category=areaHt">
++                <img class="indexImg loadingMore"
++                     src="../../images/loading1.png"/>
++            </a>
++        </div>
++
++    </div>
++</div>
++
++
++<script>
++    //$.load(
++    $.get('/Worker/loadMain', function (data) {
++        /*($('.indexPicture').each(function () {
++            $(this).attr('src', data.ImgURL[mainPageCounter]);
++        })
++    */
++        console.log(data);
++
++        changeSrc($('.indexPicture'), 0, 'src');
++        changeAttr($('.indexLink1'), 0, 'href', "../entirely/markEntirely.html?flag=marked&src=");
++        changeAttr($('.indexLink2'), 4, 'href', "../locality/markLocality.html?flag=marked&src=");
++        changeAttr($('.indexLink3'), 8, 'href', "../district/markDistrict.html?flag=marked&src=");
++
++        function changeSrc($Compo, start, attrCat) {
++            $Compo.each(function () {
++                $(this).attr(attrCat, data.ImgURL[start]);
++                start++;
++            })
++        }
++
++        function changeAttr($Compo, start, attrCat, base) {
++            $Compo.each(function () {
++                $(this).attr(attrCat, base + data.ImgURL[start].substr(1).split('\\').join('#'));
++                start++;
++            })
++        }
++    });
++
++    //图片适配
++    $(".indexImg").each(function () {
++        //计算图片大小
++        var prefWidth = $(window).width() / 6.5;
++
++        $(this).css("width", prefWidth);
++        $(this).css("height", prefWidth);
++    })
++
++    //加载更多
++    $('.loadingMore').mouseenter(function () {
++        $(this).attr('src', '../../images/loading2.png');
++    });
++    $('.loadingMore').mouseleave(function () {
++        $(this).attr('src', '../../images/loading1.png');
++    });
++
++</script>
++
++</body>
++</html>
+\ No newline at end of file

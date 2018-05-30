@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__junit_junit_4_12.xml b/.idea/libraries/Maven__junit_junit_4_12.xml
+new file mode 100644
+index 0000000..d411041
+--- /dev/null
++++ b/.idea/libraries/Maven__junit_junit_4_12.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: junit:junit:4.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

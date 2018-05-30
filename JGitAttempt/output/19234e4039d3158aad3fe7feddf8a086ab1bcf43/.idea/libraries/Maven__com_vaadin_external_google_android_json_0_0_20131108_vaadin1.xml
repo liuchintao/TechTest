@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml b/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml
+new file mode 100644
+index 0000000..b8581a6
+--- /dev/null
++++ b/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

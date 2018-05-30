@@ -1,0 +1,6 @@
+diff --git a/ImgAnnotator/target/classes/cn/joker/Model/ImgNoteEntity.class b/ImgAnnotator/target/classes/cn/joker/Model/ImgNoteEntity.class
+new file mode 100644
+index 0000000..35369eb
+--- /dev/null
++++ b/ImgAnnotator/target/classes/cn/joker/Model/ImgNoteEntity.class
+Binary files differ

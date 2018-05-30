@@ -1,0 +1,188 @@
+diff --git a/resources/static/index5.html b/resources/static/index5.html
+new file mode 100644
+index 0000000..8d7df65
+--- /dev/null
++++ b/resources/static/index5.html
+@@ -0,0 +1,181 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>ImgAnnotator——图片标注系统</title>
++    <link href="../css/bootstrap.css" rel="stylesheet">
++    <script src="../js/jquery-3.3.1.min.js"></script>
++    <script src="../js/bootstrap.js"></script>
++
++
++</head>
++<body>
++<div class="container">
++    <!--外部调用不能重复导入css和js文件，否则下拉框不能显示-->
++    <div id="nav"></div>
++    <script>
++        $("#nav").load("util/navigation.html");
++    </script>
++
++    <div class="row clearfix">
++        <div class="col-md-12 column">
++
++            <!--顶部幻灯片浏览-->
++            <div class="carousel slide" id="carousel-865897">
++                <ol class="carousel-indicators">
++                    <li class="active" data-slide-to="0" data-target="#carousel-865897">
++                    </li>
++                    <li data-slide-to="1" data-target="#carousel-865897">
++                    </li>
++                    <li data-slide-to="2" data-target="#carousel-865897">
++                    </li>
++                </ol>
++                <div class="carousel-inner">
++                    <div class="item active">
++                        <img alt=""
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/1/default.jpg"/>
++                        <div class="carousel-caption">
++                            <h4>
++                                整体标注
++                            </h4>
++                            <p>
++                                您可以对图片给予整体标注，选择图片中出现的元素以及用一句话描述该图片
++                            </p>
++                        </div>
++                    </div>
++                    <div class="item">
++                        <img alt=""
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/2/default.jpg"/>
++                        <div class="carousel-caption">
++                            <h4>
++                                局部标注
++                            </h4>
++                            <p>
++                                您可以框选图片部分区域，并对其进行标注
++                            </p>
++                        </div>
++                    </div>
++                    <div class="item">
++                        <img alt=""
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/1600/500/sports/3/default.jpg"/>
++                        <div class="carousel-caption">
++                            <h4>
++                                区域划分
++                            </h4>
++                            <p>
++                                您可以将图片划分为若干个区域
++                            </p>
++                        </div>
++                    </div>
++                </div>
++                <a class="left carousel-control" href="#carousel-865897" data-slide="prev"><span
++                        class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control"
++                                                                                href="#carousel-865897"
++                                                                                data-slide="next"><span
++                    class="glyphicon glyphicon-chevron-right"></span></a>
++            </div>
++        </div>
++    </div>
++    <!--这边需要及时更新图片-->
++    <div class="row clearfix">
++        <div class="col-md-12 column">
++            <br>
++            <h4>
++                整体标注
++            </h4>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <!--最后一张图片用查看更多来显示-->
++            <a href="Nodiff/choosePage.html?category=entire">
++                <img height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++        </div>
++
++        <div class="col-md-12 column">
++            <br>
++            <h4>
++                局部标注
++            </h4>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <!--最后一张图片用查看更多来显示-->
++            <a href="Nodiff/choosePage.html?category=partial">
++                <img height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++        </div>
++
++        <div class="col-md-12 column">
++            <br>
++            <h4>
++                区域划分
++            </h4>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <a href="http://www.baidu.com">
++                <img class="indexPicture" height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++            <!--最后一张图片用查看更多来显示-->
++            <a href="Nodiff/choosePage.html?category=area">
++                <img height="19.6%" width="19.6%"
++                     src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++            </a>
++        </div>
++
++    </div>
++</div>
++
++
++<script>
++    /*$.get('/Worker/loadMain', function (data) {
++        let mainPageCounter = 0;
++
++        $('.indexPicture').each(function () {
++            $(this).attr('src', data.ImgURI[mainPageCounter]);
++            mainPageCounter++;
++        });
++    });*/
++</script>
++
++</body>
++</html>
+\ No newline at end of file

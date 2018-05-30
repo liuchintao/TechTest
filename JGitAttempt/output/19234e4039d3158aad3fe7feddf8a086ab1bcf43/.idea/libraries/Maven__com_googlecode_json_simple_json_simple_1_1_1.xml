@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml b/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml
+new file mode 100644
+index 0000000..f3f3738
+--- /dev/null
++++ b/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.googlecode.json-simple:json-simple:1.1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

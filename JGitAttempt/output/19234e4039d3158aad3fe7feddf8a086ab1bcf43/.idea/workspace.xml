@@ -1,0 +1,948 @@
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+index 0000000..a872d00
+--- /dev/null
++++ b/.idea/workspace.xml
+@@ -0,0 +1,941 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="9d4e5e2a-27e2-4744-be4a-0a2622711305" name="Default" comment="date: 19:28 2018/3/23">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
++      <change beforePath="$PROJECT_DIR$/ImgAnnotator/pis.iml" afterPath="$PROJECT_DIR$/ImgAnnotator/pis.iml" />
++      <change beforePath="$PROJECT_DIR$/ImgAnnotator/target/classes/cn/joker/controller/ImgMarkController/ImgMarkUploadController.class" afterPath="$PROJECT_DIR$/ImgAnnotator/target/classes/cn/joker/controller/ImgMarkController/ImgMarkUploadController.class" />
++      <change beforePath="$PROJECT_DIR$/resources/static/myCSS/bootstrap.css" afterPath="" />
++    </list>
++    <ignored path="$PROJECT_DIR$/ImgAnnotator/target/" />
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="TRACKING_ENABLED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileEditorManager">
++    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
++      <file leaf-file-name="markLocality.html" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/markLocality.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="1617">
++              <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
++              <folding>
++                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
++                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
++                <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="MyGlobal.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/MyGlobal.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="375">
++              <caret line="241" column="46" lean-forward="false" selection-start-line="241" selection-start-column="46" selection-end-line="241" selection-end-column="46" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="AnnotateStarter.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/AnnotateStarter.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="144">
++              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="hrefTest.html" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/hrefTest.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="192">
++              <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/test3/index2.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="0">
++              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="rectangleDrawer.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/rectangleDrawer.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="783">
++              <caret line="399" column="9" lean-forward="false" selection-start-line="399" selection-start-column="9" selection-end-line="399" selection-end-column="9" />
++              <folding>
++                <element signature="n#!!doc" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="polygonDrawer.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/polygonDrawer.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="663">
++              <caret line="311" column="13" lean-forward="false" selection-start-line="311" selection-start-column="13" selection-end-line="311" selection-end-column="13" />
++              <folding>
++                <element signature="n#!!doc" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="totalMsg.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/totalMsg.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="1536">
++              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="markEntirely.html" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/resources/static/html/entirely/markEntirely.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="0">
++              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++    </leaf>
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="JavaScript File" />
++        <option value="HTML File" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <push-targets>
++      <push-target-info target-remote="origin" target-branch="whisky" repo="$PROJECT_DIR$" source="develop" />
++    </push-targets>
++  </component>
++  <component name="GradleLocalSettings">
++    <option name="externalProjectsViewState">
++      <projects_view />
++    </option>
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/resources/static/html/navigation.html" />
++        <option value="$PROJECT_DIR$/resources/static/js/Main2Selector.js" />
++        <option value="$PROJECT_DIR$/resources/static/js/LoadMainPicture.js" />
++        <option value="$PROJECT_DIR$/resources/static/html/entirely/entirelyNav.html" />
++        <option value="$PROJECT_DIR$/resources/static/html/Nodiff/choosePage.html" />
++        <option value="$PROJECT_DIR$/resources/static/html/index.html" />
++        <option value="$PROJECT_DIR$/resources/static/index.html" />
++        <option value="$PROJECT_DIR$/resources/static/html/util/navigation.html" />
++        <option value="$PROJECT_DIR$/resources/static/html/HomePage/index.html" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgLoadController/DataSetLoadController.java" />
++        <option value="$PROJECT_DIR$/resources/static/html/loader/loaderpage.html" />
++        <option value="$PROJECT_DIR$/resources/static/js/MainPageLoadMore.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgLoadController/LoadController.java" />
++        <option value="$PROJECT_DIR$/resources/static/myJS/MyGlobal.js" />
++        <option value="$PROJECT_DIR$/resources/static/myJS/rectangleDrawer.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgMarkController/MarkCheckController.java" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgMarkController/ImgMarkUploadController.java" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/application.properties" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/totalMsg.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/rectangleDrawer.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/polygonDrawer.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/AnnotateStarter.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/test3/hrefTest.html" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/markLocality.html" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/MyGlobal.js" />
++        <option value="$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/hrefTest.html" />
++      </list>
++    </option>
++  </component>
++  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsFlowSettings">
++    <service-enabled>true</service-enabled>
++    <exe-path />
++    <other-services-enabled>true</other-services-enabled>
++    <auto-save>true</auto-save>
++  </component>
++  <component name="JsGulpfileManager">
++    <detection-done>true</detection-done>
++    <sorting>DEFINITION_ORDER</sorting>
++  </component>
++  <component name="ProjectFrameBounds" extendedState="6">
++    <option name="x" value="260" />
++    <option name="y" value="20" />
++    <option name="width" value="1400" />
++    <option name="height" value="990" />
++  </component>
++  <component name="ProjectView">
++    <navigator currentView="ProjectPane" proportions="" version="1">
++      <flattenPackages />
++      <showMembers />
++      <showModules />
++      <showLibraryContents />
++      <hideEmptyPackages />
++      <abbreviatePackageNames />
++      <autoscrollToSource />
++      <autoscrollFromSource />
++      <sortByType />
++      <manualOrder />
++      <foldersAlwaysOnTop value="true" />
++    </navigator>
++    <panes>
++      <pane id="PackagesPane" />
++      <pane id="AndroidView" />
++      <pane id="Scratches" />
++      <pane id="Scope" />
++      <pane id="ProjectPane">
++        <subPane>
++          <expand>
++            <path>
++              <item name="Project_Phase_I" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Project_Phase_I" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Project_Phase_I" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Project_Phase_I" type="462c0819:PsiDirectoryNode" />
++              <item name="resources" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Project_Phase_I" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Project_Phase_I" type="462c0819:PsiDirectoryNode" />
++              <item name="resources" type="462c0819:PsiDirectoryNode" />
++              <item name="static" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Project_Phase_I" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Project_Phase_I" type="462c0819:PsiDirectoryNode" />
++              <item name="resources" type="462c0819:PsiDirectoryNode" />
++              <item name="static" type="462c0819:PsiDirectoryNode" />
++              <item name="html" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Project_Phase_I" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Project_Phase_I" type="462c0819:PsiDirectoryNode" />
++              <item name="resources" type="462c0819:PsiDirectoryNode" />
++              <item name="static" type="462c0819:PsiDirectoryNode" />
++              <item name="html" type="462c0819:PsiDirectoryNode" />
++              <item name="entirely" type="462c0819:PsiDirectoryNode" />
++            </path>
++          </expand>
++          <select />
++        </subPane>
++      </pane>
++    </panes>
++  </component>
++  <component name="PropertiesComponent">
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="aspect.path.notification.shown" value="true" />
++    <property name="last_opened_file_path" value="D:/se" />
++    <property name="project.structure.last.edited" value="Modules" />
++    <property name="project.structure.proportion" value="0.0" />
++    <property name="project.structure.side.proportion" value="0.0" />
++    <property name="DefaultHtmlFileTemplate" value="HTML File" />
++    <property name="RequestMappingsPanelWidth0" value="75" />
++    <property name="RequestMappingsPanelOrder0" value="0" />
++    <property name="RequestMappingsPanelWidth1" value="75" />
++    <property name="RequestMappingsPanelOrder1" value="1" />
++    <property name="RequestMappingsPanelWidth2" value="75" />
++    <property name="RequestMappingsPanelOrder2" value="2" />
++    <property name="restartRequiresConfirmation" value="false" />
++    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
++    <property name="SearchEverywhereHistoryKey" value="uri&#9;null&#9;null" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="I:\test\Project_Phase_I\ImgAnnotator\src\main\resources\static" />
++      <recent name="I:\test\Project_Phase_I\ImgAnnotator" />
++      <recent name="C:\java\SE\pis\Project_Phase_I\resources\static" />
++      <recent name="C:\java\SE\pis\Project_Phase_I\resources\static\html" />
++      <recent name="D:\文案与作业\2017-2018第二学期\软件工程与计算三\Joker\Project_Phase_1\resources\static\html\HomePage" />
++    </key>
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="I:\test\Project_Phase_I\ImgAnnotator\src\main\resources\static" />
++    </key>
++  </component>
++  <component name="RunDashboard">
++    <option name="ruleStates">
++      <list>
++        <RuleState>
++          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
++        </RuleState>
++        <RuleState>
++          <option name="name" value="StatusDashboardGroupingRule" />
++        </RuleState>
++      </list>
++    </option>
++  </component>
++  <component name="RunManager">
++    <configuration default="true" type="Applet" factoryName="Applet">
++      <option name="HTML_USED" value="false" />
++      <option name="WIDTH" value="400" />
++      <option name="HEIGHT" value="300" />
++      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
++      <module />
++    </configuration>
++    <configuration default="true" type="Application" factoryName="Application">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="ENABLE_SWING_INSPECTOR" value="false" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <module name="" />
++      <envs />
++    </configuration>
++    <configuration default="true" type="JUnit" factoryName="JUnit">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="TEST_OBJECT" value="class" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <envs />
++      <patterns />
++    </configuration>
++    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <module name="ImgAnnotator" />
++      <envs />
++    </configuration>
++    <configuration default="true" type="Remote" factoryName="Remote">
++      <option name="USE_SOCKET_TRANSPORT" value="true" />
++      <option name="SERVER_MODE" value="false" />
++      <option name="SHMEM_ADDRESS" value="javadebug" />
++      <option name="HOST" value="localhost" />
++      <option name="PORT" value="5005" />
++    </configuration>
++    <configuration name="SpringBootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.joker.SpringBootWebApplication" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <module name="pis" />
++      <envs />
++    </configuration>
++    <configuration default="true" type="TestNG" factoryName="TestNG">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="SUITE_NAME" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="GROUP_NAME" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
++      <option name="OUTPUT_DIRECTORY" />
++      <option name="ANNOTATION_TYPE" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <option name="USE_DEFAULT_REPORTERS" value="false" />
++      <option name="PROPERTIES_FILE" />
++      <envs />
++      <properties />
++      <listeners />
++    </configuration>
++    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
++      <module name="" />
++      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
++      <option name="PROGRAM_PARAMETERS" />
++      <predefined_log_file id="idea.log" enabled="true" />
++    </configuration>
++  </component>
++  <component name="ShelveChangesManager" show_recycled="false">
++    <option name="remove_strategy" value="false" />
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="9d4e5e2a-27e2-4744-be4a-0a2622711305" name="Default" comment="" />
++      <created>1521536086746</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1521536086746</updated>
++      <workItem from="1521536088271" duration="245000" />
++      <workItem from="1521536342506" duration="1301000" />
++      <workItem from="1521597064784" duration="603000" />
++      <workItem from="1521637380331" duration="9547000" />
++      <workItem from="1521695621761" duration="1175000" />
++      <workItem from="1521708655303" duration="4804000" />
++      <workItem from="1521716141838" duration="2839000" />
++      <workItem from="1521719316017" duration="5439000" />
++      <workItem from="1521733359327" duration="11486000" />
++      <workItem from="1521804292763" duration="4082000" />
++      <workItem from="1521848831716" duration="10919000" />
++    </task>
++    <task id="LOCAL-00001" summary="load main page picture">
++      <created>1521719166294</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1521719166294</updated>
++    </task>
++    <task id="LOCAL-00002" summary="load main page picture">
++      <created>1521721074058</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1521721074058</updated>
++    </task>
++    <task id="LOCAL-00003" summary="can get pics from remote">
++      <created>1521724045591</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1521724045591</updated>
++    </task>
++    <task id="LOCAL-00004" summary="to run the local server">
++      <created>1521789604445</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1521789604445</updated>
++    </task>
++    <task id="LOCAL-00005" summary="to run the local server again">
++      <created>1521790777749</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1521790777749</updated>
++    </task>
++    <task id="LOCAL-00006" summary="实现加载数据集">
++      <created>1521794857925</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1521794857925</updated>
++    </task>
++    <task id="LOCAL-00007" summary="实现加载数据集">
++      <created>1521795041027</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1521795041027</updated>
++    </task>
++    <task id="LOCAL-00008" summary="date: 19:28 2018/3/23">
++      <created>1521804501952</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1521804501952</updated>
++    </task>
++    <task id="LOCAL-00009" summary="date: 19:28 2018/3/23">
++      <created>1521860085342</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1521860085342</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
++    <servers />
++  </component>
++  <component name="TimeTrackingManager">
++    <option name="totallyTimeSpent" value="67360000" />
++  </component>
++  <component name="ToolWindowManager">
++    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
++    <layout>
++      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.50377357" order="13" side_tool="true" content_ui="tabs" />
++      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
++      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
++      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
++      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
++      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0121546965" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
++      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
++      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
++      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
++    </layout>
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="1" />
++  </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="load main page picture" />
++    <MESSAGE value="can get pics from remote" />
++    <MESSAGE value="to run the local server" />
++    <MESSAGE value="to run the local server again" />
++    <MESSAGE value="实现加载数据集" />
++    <MESSAGE value="date: 19:28 2018/3/23" />
++    <option name="LAST_COMMIT_MESSAGE" value="date: 19:28 2018/3/23" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <option name="time" value="1" />
++    </breakpoint-manager>
++    <watches-manager />
++  </component>
++  <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/resources/static/css/annotation.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/navigation.html" />
++    <entry file="file://$PROJECT_DIR$/resources/static/html/personnelInfo.html" />
++    <entry file="file://$PROJECT_DIR$/resources/static/css/bootstrap.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="23">
++          <caret line="6758" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6846" selection-end-column="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/locality/localityNav.html" />
++    <entry file="file://$PROJECT_DIR$/resources/static/html/entirely/entirelyNav.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="759">
++          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/district/districtNav.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="184">
++          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="50" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/index.html" />
++    <entry file="file://$PROJECT_DIR$/resources/static/myJS/text.js" />
++    <entry file="file://$PROJECT_DIR$/resources/static/html/Nodiff/choosePage.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-2060">
++          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/js/Main2Selector.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="391">
++          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/index2.html" />
++    <entry file="file://$PROJECT_DIR$/resources/static/index5.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-1152">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/js/jquery-3.3.1.min.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="437">
++          <caret line="1" column="2607" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
++          <folding>
++            <element signature="n#!!doc" expanded="false" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/HomePage/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-3233">
++          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/test3/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/util/pictureInfoPane.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-138">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/js/LoadMainPicture.js" />
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/pis.iml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-1173">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/util/navigation.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="345">
++          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/test3/index2.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/js/MainPageLoadMore.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="492">
++          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/HomePage/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="7585">
++          <caret line="185" column="62" lean-forward="false" selection-start-line="185" selection-start-column="62" selection-end-line="185" selection-end-column="62" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgLoadController/LoadController.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="341">
++          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/loader/loaderpage.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="276">
++          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgLoadController/DataSetLoadController.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="323">
++          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/draw_rectangle_demo.html" />
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/test/java/testPost.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="610">
++          <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="89" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgMarkController/MarkCheckController.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="574">
++          <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/controller/ImgMarkController/ImgMarkUploadController.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="639">
++          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/java/cn/joker/SpringBootWebApplication.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="336">
++          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/myJS/MyGlobal.js" />
++    <entry file="file://$PROJECT_DIR$/resources/static/myJS/rectangleDrawer.js" />
++    <entry file="file://$PROJECT_DIR$/resources/static/html/district/markDistrict.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="143">
++          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/locality/markLocality.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1367">
++          <caret line="61" column="71" lean-forward="false" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myCSS/bootstrap.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/application.properties">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/images/accept.png">
++      <provider selected="true" editor-type-id="images">
++        <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/images/UnMarked/Polygon/000000000512.jpg">
++      <provider selected="true" editor-type-id="images">
++        <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/smaller.jpg">
++      <provider selected="true" editor-type-id="images">
++        <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/totalMsg.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1536">
++          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/resources/static/html/entirely/markEntirely.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/polygonDrawer.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="663">
++          <caret line="311" column="13" lean-forward="false" selection-start-line="311" selection-start-column="13" selection-end-line="311" selection-end-column="13" />
++          <folding>
++            <element signature="n#!!doc" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/test3/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/markLocality.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1617">
++          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
++          <folding>
++            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
++            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
++            <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/MyGlobal.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="375">
++          <caret line="241" column="46" lean-forward="false" selection-start-line="241" selection-start-column="46" selection-end-line="241" selection-end-column="46" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/test3/index2.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/AnnotateStarter.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="144">
++          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/myJS/rectangleDrawer.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="783">
++          <caret line="399" column="9" lean-forward="false" selection-start-line="399" selection-start-column="9" selection-end-line="399" selection-end-column="9" />
++          <folding>
++            <element signature="n#!!doc" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/ImgAnnotator/src/main/resources/static/hrefTest.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="192">
++          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++  </component>
++  <component name="masterDetails">
++    <states>
++      <state key="ArtifactsStructureConfigurable.UI">
++        <settings>
++          <artifact-editor />
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="FacetStructureConfigurable.UI">
++        <settings>
++          <last-edited>Spring</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="GlobalLibrariesConfigurable.UI">
++        <settings>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="JdkListConfigurable.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ModuleStructureConfigurable.UI">
++        <settings>
++          <last-edited>pis</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++                <option value="0.6" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ProjectLibrariesConfigurable.UI">
++        <settings>
++          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++    </states>
++  </component>
++</project>
+\ No newline at end of file

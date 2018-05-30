@@ -1,0 +1,6 @@
+diff --git a/ImgAnnotator/target/classes/cn/joker/controller/ImgMarkController/MarkModifyController.class b/ImgAnnotator/target/classes/cn/joker/controller/ImgMarkController/MarkModifyController.class
+new file mode 100644
+index 0000000..79fb1f8
+--- /dev/null
++++ b/ImgAnnotator/target/classes/cn/joker/controller/ImgMarkController/MarkModifyController.class
+Binary files differ

@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__org_json_json_20160810.xml b/.idea/libraries/Maven__org_json_json_20160810.xml
+new file mode 100644
+index 0000000..774f062
+--- /dev/null
++++ b/.idea/libraries/Maven__org_json_json_20160810.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.json:json:20160810">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

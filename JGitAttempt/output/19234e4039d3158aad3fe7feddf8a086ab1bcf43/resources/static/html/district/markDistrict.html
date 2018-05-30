@@ -1,0 +1,49 @@
+diff --git a/resources/static/html/district/markDistrict.html b/resources/static/html/district/markDistrict.html
+new file mode 100644
+index 0000000..78ea9da
+--- /dev/null
++++ b/resources/static/html/district/markDistrict.html
+@@ -0,0 +1,42 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>区域划分</title>
++    <link href="../../css/bootstrap.css" rel="stylesheet">
++    <script src="../../js/jquery-3.3.1.min.js"></script>
++    <script src="../../js/bootstrap.js"></script>
++</head>
++<body>
++<div class="container">
++    <div id="nav"></div>
++    <script>
++        $("#nav").load("../util/navigation.html");
++    </script>
++
++    <div class="col-md-8 column colLeft">
++        <!--对图片的相关操作都放在这边-->
++        <!--对于整体标注而言只需要把图片加载到这个地方就可以了-->
++        <!--一开始加载页面的时候需要有参数-->
++        <!--长方形框的大小可以规定一下，防止图片过大或过小-->
++        <!--这边可以添加一些操作，对于划分区域而言-->
++        <div style="border: 1px solid #bebebe; height:98%; width:98%; margin-left:5px">
++            <center><img src="../../images/Marked/Total/000000000209.jpg"></center>
++        </div>
++    </div>
++    <div class="col-md-4 column">
++        <div class="form-group">
++            <br>
++            <label>要求</label>
++            <br>
++            <br>
++            <p id="requirement">请圈出图片中的人</p>
++        </div>
++        <form role="form">
++            <br>
++            <center><button type="submit" class="btn btn-color">提交</button></center>
++        </form>
++    </div>
++</div>
++</body>
++</html>
+\ No newline at end of file

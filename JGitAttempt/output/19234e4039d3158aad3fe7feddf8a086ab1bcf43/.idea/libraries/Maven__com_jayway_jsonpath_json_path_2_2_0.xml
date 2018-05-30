@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml b/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml
+new file mode 100644
+index 0000000..578b079
+--- /dev/null
++++ b/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.jayway.jsonpath:json-path:2.2.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

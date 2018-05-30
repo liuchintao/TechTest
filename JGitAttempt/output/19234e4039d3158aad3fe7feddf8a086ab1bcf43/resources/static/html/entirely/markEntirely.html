@@ -1,0 +1,52 @@
+diff --git a/resources/static/html/entirely/markEntirely.html b/resources/static/html/entirely/markEntirely.html
+new file mode 100644
+index 0000000..28c52dd
+--- /dev/null
++++ b/resources/static/html/entirely/markEntirely.html
+@@ -0,0 +1,45 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>整体标注</title>
++    <link href="../../css/bootstrap.css" rel="stylesheet">
++    <script src="../../js/jquery-3.3.1.min.js"></script>
++    <script src="../../js/bootstrap.js"></script>
++</head>
++<body>
++<div class="container">
++    <!--外部调用不能重复导入css和js文件，否则下拉框不能显示-->
++    <div id="nav"></div>
++    <script>
++        $("#nav").load('../util/navigation.html');
++    </script>
++
++    <div class="row clearfix">
++        <div class="col-md-8 column">
++            <!--对图片的相关操作都放在这边-->
++            <!--对于整体标注而言只需要把图片加载到这个地方就可以了-->
++            <!--一开始加载页面的时候需要有参数-->
++            <!--长方形框的大小可以规定一下，防止图片过大或过小-->
++            <div style="border: 1px solid #bebebe; height:100%; width:94%; padding: 5px 5px 5px 5px; margin-left: 0%">
++                <center><img src="../../images/Marked/Total/000000000209.jpg"></center>
++            </div>
++        </div>
++        <div class="col-md-4 column">
++
++            <form role="form">
++                <div class="form-group">
++                    <br>
++                    <label>整体描述</label>
++                    <br>
++                    <textarea type="text" class="form-control" id="description" placeholder="请用一句话描述该图片"></textarea>
++                </div>
++                <br>
++                <br>
++                <center><button type="submit" class="btn btn-color">提交</button></center>
++            </form>
++        </div>
++    </div>
++</div>
++</body>
++</html>
+\ No newline at end of file

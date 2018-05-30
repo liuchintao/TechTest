@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml
+new file mode 100644
+index 0000000..97aab57
+--- /dev/null
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.16">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml b/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml
+new file mode 100644
+index 0000000..20e2920
+--- /dev/null
++++ b/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.yaml:snakeyaml:1.17">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.17/snakeyaml-1.17-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

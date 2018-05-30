@@ -1,0 +1,50 @@
+diff --git a/resources/static/html/util/pictureInfoPane.html b/resources/static/html/util/pictureInfoPane.html
+new file mode 100644
+index 0000000..072cfba
+--- /dev/null
++++ b/resources/static/html/util/pictureInfoPane.html
+@@ -0,0 +1,43 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>图片标注信息</title>
++</head>
++<body>
++<div class="col-md-4 column">
++    <div class="row clearfix">
++        <div class="col-md-10 column">
++            <div class="form-group">
++                <label for="inputTag" class="col-sm-3 control-label" id="tag">标签</label>
++                <div class="col-sm-9">
++                    <input type="text" class="form-control" id="inputTag" placeholder="请输入标签"/>
++                </div>
++            </div>
++        </div>
++        <div class="col-md-2 column">
++            <center><button class="btn btn-color" id="btAddTag">添加</button></center>
++        </div>
++    </div>
++
++    <!--长方形框-->
++    <div style="border: 1px solid #bebebe; height:100px; width:100%; padding: 5px 5px 5px 5px">
++        <span class="label label-default">人</span>
++        <span class="label label-default">水果</span>
++    </div>
++
++    <br>
++    <br>
++
++    <form role="form">
++        <div class="form-group">
++            <label>整体描述</label>
++            <textarea type="text" class="form-control" id="description" placeholder="请用一句话描述该图片"></textarea>
++        </div>
++        <br>
++        <br>
++        <center><button type="submit" class="btn btn-color">提交</button></center>
++    </form>
++</div>
++</body>
++</html>
+\ No newline at end of file

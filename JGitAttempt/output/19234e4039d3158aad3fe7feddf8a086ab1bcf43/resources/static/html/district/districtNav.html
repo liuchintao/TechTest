@@ -1,0 +1,119 @@
+diff --git a/resources/static/html/district/districtNav.html b/resources/static/html/district/districtNav.html
+new file mode 100644
+index 0000000..a6b2815
+--- /dev/null
++++ b/resources/static/html/district/districtNav.html
+@@ -0,0 +1,112 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>区域标注导航</title>
++    <link href="../../css/bootstrap.css" rel="stylesheet">
++    <script src="../../js/jquery-3.3.1.min.js"></script>
++    <script src="../../js/bootstrap.js"></script>
++</head>
++<body>
++<div class="container">
++    <!--外部调用不能重复导入css和js文件，否则下拉框不能显示-->
++    <div id="nav"></div>
++    <script>
++        $("#nav").load("../util/navigation.html");
++    </script>
++
++    <div class="row clearfix">
++        <div class="col-md-12 column">
++            <div class="row clearfix">
++                <div class="col-md-12 column">
++                    <div class="jumbotron">
++                        <h1>
++                            局部标注
++                        </h1>
++                        <p>
++                            您需要用方框框出图片关键部分，并对其加标签。
++                        </p>
++                        <p>
++                            <a class="btn btn-color btn-large" href="#firstPic">立刻开始</a>
++                        </p>
++                    </div>
++                </div>
++            </div>
++            <div class="row clearfix" style="margin-top: 2%" id="firstPic">
++                <div class="col-md-12 column">
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%" src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                </div>
++            </div>
++            <div class="row clearfix">
++                <div class="col-md-12 column" style="margin-top: 2%">
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%" src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                </div>
++            </div>
++            <div class="row clearfix">
++                <div class="col-md-12 column" style="margin-top: 2%">
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%" src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                    <a href="http://www.baidu.com">
++                        <img height="24%" width="24.7%"
++                             src="http://ibootstrap-file.b0.upaiyun.com/lorempixel.com/140/140/default.jpg"/>
++                    </a>
++                </div>
++            </div>
++        </div>
++    </div>
++    <div class="row clearfix">
++        <div class="col-md-6 column"">
++        <ul class="pagination">
++            <li>
++                <a href="#">上一页</a>
++            </li>
++        </ul>
++    </div>
++    <div class="col-md-6 column" style="padding-left: 42.5%">
++        <ul class="pagination">
++            <li>
++                <a href="#">下一页</a>
++            </li>
++        </ul>
++    </div>
++</div>
++</div>
++</body>
++</html>
+\ No newline at end of file

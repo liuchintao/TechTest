@@ -1,0 +1,98 @@
+diff --git a/IntChkStlAtmpt/pom.xml b/IntChkStlAtmpt/pom.xml
+index 46d1409..eb097ba 100644
+--- a/IntChkStlAtmpt/pom.xml
++++ b/IntChkStlAtmpt/pom.xml
+@@ -9,91 +9,17 @@
+ 
+   <name>IntChkStlAtmpt</name>
+   <url>http://maven.apache.org</url>
+-  
++
+   <properties>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-    <chkstl.version>3.0.0</chkstl.version>
+-    <!-- log4j日志文件管理包版本 -->
+-	<slf4j.version>1.6.6</slf4j.version>
+-	<log4j.version>1.2.9</log4j.version>
+   </properties>
+ 
+   <dependencies>
+     <dependency>
+       <groupId>junit</groupId>
+       <artifactId>junit</artifactId>
+-      <version>4.10</version>
++      <version>3.8.1</version>
+       <scope>test</scope>
+     </dependency>
+   </dependencies>
+-  
+-  <build>
+-    <!-- To define CheckStyle plugin's version -->
+-    <pluginManagement>
+-      <plugins>
+-        <plugin>
+-          <groupId>org.apache.maven.plugins</groupId>
+-          <artifactId>maven-checkstyle-plugin</artifactId>
+-          <version>${chkstl.version}</version>
+-          <!-- <executions>
+-	         <execution>
+-	           <id>validate</id>
+-	           <phase>validate</phase>
+-	           <configuration>
+-	             <configLocation>checkstyle.xml</configLocation>
+-	             <encoding>UTF-8</encoding>
+-	             <consoleOutput>true</consoleOutput>
+-	             <failsOnError>true</failsOnError>
+-	             <linkXRef>false</linkXRef>
+-	           </configuration>
+-	           <goals>
+-	             <goal>check</goal>
+-	           </goals>
+-	         </execution>
+-	       </executions> -->
+-        </plugin>
+-      </plugins>
+-    </pluginManagement>
+-    
+-    <!-- To use CheckStyle plugin goals in this scope. -->
+-    <plugins>
+-      <plugin>
+-        <groupId>org.apache.maven.plugins</groupId>
+-        <artifactId>maven-checkstyle-plugin</artifactId>
+-        <version>${chkstl.version}</version>
+-        <!--  -->
+-      </plugin>
+-      <!-- Another goals -->
+-      <!-- <plugin>
+-        <groupId></groupId>
+-        <artifactId></artifactId>
+-        <version></version>
+-      </plugin> -->
+-    </plugins>
+-  </build>
+-  
+-  <!-- To use CheckStyle plugin report goals in this scope. -->
+-  <reporting>
+-    <plugins>
+-      <plugin>
+-        <groupId>org.apache.maven.plugins</groupId>
+-        <artifactId>maven-checkstyle-plugin</artifactId>
+-        <version>${chkstl.version}</version>
+-        <reportSets>
+-          <reportSet>
+-            <reports>
+-            <!-- Generate checkstyle report as part of the Project Reports. -->
+-              <report>checkstyle</report>
+-            </reports>
+-          </reportSet>
+-        </reportSets>
+-      </plugin>
+-      <!-- Another goals -->
+-      <!-- <plugin>
+-        <groupId></groupId>
+-        <artifactId></artifactId>
+-        <version></version>
+-      </plugin> -->
+-    </plugins>
+-  </reporting>
+ </project>

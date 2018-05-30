@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml b/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml
+new file mode 100644
+index 0000000..6c692c8
+--- /dev/null
++++ b/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: net.minidev:json-smart:2.2.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.2.1/json-smart-2.2.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.2.1/json-smart-2.2.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

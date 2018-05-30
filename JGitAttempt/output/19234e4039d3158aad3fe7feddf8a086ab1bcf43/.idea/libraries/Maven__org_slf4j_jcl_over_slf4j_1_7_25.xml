@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml b/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml
+new file mode 100644
+index 0000000..bae9949
+--- /dev/null
++++ b/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.25">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

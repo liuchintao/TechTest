@@ -1,0 +1,63 @@
+diff --git a/ImgAnnotator/src/main/resources/static/index.html b/ImgAnnotator/src/main/resources/static/index.html
+new file mode 100644
+index 0000000..889f67a
+--- /dev/null
++++ b/ImgAnnotator/src/main/resources/static/index.html
+@@ -0,0 +1,56 @@
++<html>
++
++<head>
++    <title>Image Annotations</title>
++    <style type="text/css" media="all">@import "css/annotation.css";</style>
++    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
++    <script type="text/javascript" src="dist/js/jquery.min.js"></script>
++    <script type="text/javascript" src="dist/js/jquery-ui.min.js"></script>
++    <script type="text/javascript" src="js/jquery.annotate.js"></script>
++
++    <script language="javascript">
++        function addAnnotate(str) {
++            $("#"+str).annotateImage({
++                getUrl: "http://localhost:8080/Worker/loadImage?type=unmarked",
++                saveUrl: "save.html",
++                deleteUrl: "delete.html",
++                editable: true
++            });
++        }
++
++       function start (str) {
++           $(window).load(function () {
++               addAnnotate(str);
++           })
++       };
++
++       start("toAnnotate");
++
++       function clear(str){
++           $(".image-annotate-add").remove();
++           $(".image-annotate-canvas").remove();
++           $("#"+str).show();
++       }
++    </script>
++</head>
++<body>
++<div>
++    <img id="toAnnotate" src="images/trafalgar-square-annotated.jpg" alt="Trafalgar Square" width="600" height="398"/>
++</div>
++<button id = "down">
++    下一张图片
++</button>
++<a href="/test3/index.html">页面跳转测试</a>
++<script language="javascript">
++    $("#down").click(function () {
++        $.get("http://localhost:8080/Worker/loadImage",{dataSetID:"default",type:"unMarked"},function (data) {
++            var pic = data.ImgURI[0];
++            $("#toAnnotate").attr("src",pic);
++            clear("toAnnotate");
++            addAnnotate("toAnnotate");
++        })
++        }
++    );
++</script>
++</body>
++</html>
+\ No newline at end of file

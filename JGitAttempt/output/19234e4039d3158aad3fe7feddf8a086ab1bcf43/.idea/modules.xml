@@ -1,0 +1,16 @@
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..281dd99
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Project_Phase_I.iml" filepath="$PROJECT_DIR$/.idea/Project_Phase_I.iml" />
++      <module fileurl="file://$PROJECT_DIR$/ImgAnnotator/pis.iml" filepath="$PROJECT_DIR$/ImgAnnotator/pis.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file

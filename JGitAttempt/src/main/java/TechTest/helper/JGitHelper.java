@@ -21,7 +21,13 @@ public class JGitHelper {
                 .findGitDir() // scan up the file system tree
                 .build();
     }
-
+    
+    public static Repository openExistingRepo(String pth) throws IOException {
+		File f = new File(pth + "\\.git");
+		FileRepositoryBuilder builder = new FileRepositoryBuilder();
+		return builder.setGitDir(f).build();
+	}
+    
     public static Repository createNewRepository() throws IOException {
         // prepare a new folder
         File localPath = File.createTempFile("TestGitRepository", "");

@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__commons_io_commons_io_2_5.xml b/.idea/libraries/Maven__commons_io_commons_io_2_5.xml
+new file mode 100644
+index 0000000..67c2ad2
+--- /dev/null
++++ b/.idea/libraries/Maven__commons_io_commons_io_2_5.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: commons-io:commons-io:2.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

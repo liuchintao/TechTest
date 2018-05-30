@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml b/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml
+new file mode 100644
+index 0000000..940ce73
+--- /dev/null
++++ b/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: javax.validation:validation-api:1.1.0.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

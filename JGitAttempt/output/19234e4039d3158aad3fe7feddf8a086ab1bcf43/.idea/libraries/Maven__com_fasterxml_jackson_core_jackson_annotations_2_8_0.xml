@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml
+new file mode 100644
+index 0000000..49b4ec7
+--- /dev/null
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

@@ -1,0 +1,20 @@
+diff --git a/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml b/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml
+new file mode 100644
+index 0000000..7ab319b
+--- /dev/null
++++ b/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.objenesis:objenesis:2.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.1/objenesis-2.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

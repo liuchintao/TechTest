@@ -1,0 +1,39 @@
+diff --git a/ImgAnnotator/src/main/resources/static/draw_rectangle_demo.html b/ImgAnnotator/src/main/resources/static/draw_rectangle_demo.html
+new file mode 100644
+index 0000000..710c22c
+--- /dev/null
++++ b/ImgAnnotator/src/main/resources/static/draw_rectangle_demo.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Test Drawing</title>
++    <script src="myJS/jquery-3.3.1.js"></script>
++    <script src="myJS/jcanvas.js"></script>
++</head>
++<body>
++
++<div>
++    <div class="background" style="width: 640px; height: 427px; background: url('myTempImg/trafalgar-square-annotated.jpg') no-repeat; background-size:100% 100%;">
++        <canvas id="canvas" width= 640 height=427 style="border: 1px solid #000;"></canvas>
++    </div>
++</div>
++
++<div>
++<p><label>标记: <input id="markInput"></label></p>
++<p>
++    <button id="switchEdit">开始添加</button>
++    <button id="updateMark">更新</button>
++    <button id="deleteNote">删除</button>
++    <button id="showAll">显示所有</button>
++    <button id="hideAll">隐藏所有</button>
++    <button id="commit">提交页面信息</button>
++</p>
++</div>
++<script src="myJS/MyGlobal.js"></script>
++<script src="myJS/rectangleDrawer.js"></script>
++<!--<script src="myJS/polygonDrawer.js"></script>-->
++</body>
++</html>
+\ No newline at end of file

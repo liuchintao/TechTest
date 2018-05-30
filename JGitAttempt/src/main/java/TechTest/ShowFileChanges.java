@@ -30,31 +30,59 @@ import TechTest.helper.JGitHelper;
 public class ShowFileChanges {
 
 	public static void main(String[] args) throws IOException, GitAPIException {
-		String oldc = "7d242b852af9fd48b16229024887937aef677a09";
-		String newc = "a6ff0ae25fe4b1ccd69331cb465129ffaadbba6e";
-		try(Repository repo = JGitHelper.openJGitCookbookRepository()){
+		String cid1 = "19d9044cee6ad39a3e2f93fda056189d7447ac04";
+		String oldc = "904340848c4749421302e7b9bdfaa37fc5c6e951";
+		String newc = "19234e4039d3158aad3fe7feddf8a086ab1bcf43";
+//		String origin="01b46611df4a32e90e39c4a0b5a3880ab82e35dc";
+//		String oriold="01b46611df4a32e90e39c4a0b5a3880ab82e35dc^";
+		try(Repository repo = JGitHelper.openExistingRepo("D:\\work\\GitMining\\Repos\\samples\\161250004_Joker\\Project_Phase_I")){
 			AbstractTreeIterator oldTreeParser = prepareTreeParser(repo, oldc);
 			AbstractTreeIterator newTreeParser = prepareTreeParser(repo, newc);
-			JGitHelper.createNewFolder(newc);
+			AbstractTreeIterator c1TreeParser = prepareTreeParser(repo, cid1);
+//			AbstractTreeIterator oriTreeParser = prepareTreeParser(repo, origin);
+//			AbstractTreeIterator ordTreeParser = prepareTreeParser(repo, origin);
+//			JGitHelper.createNewFolder(origin);
+//			try(Git git = new Git(repo)){
+//				List<DiffEntry> diffs = git.diff().setNewTree(oriTreeParser).call();
+//				for(DiffEntry entry: diffs) {
+//					String pth = entry.getNewPath();
+//					File out = JGitHelper.createCommitFile(newc, pth);
+//					FileOutputStream output = new FileOutputStream(out);
+//					System.out.println("Entry: " + entry + ", from: " + entry.getOldId() + ", to: " + entry.getNewId());
+//					try(DiffFormatter formatter = new DiffFormatter(output)){
+//						formatter.setRepository(repo);
+//						formatter.format(entry);
+//					}
+//				}
+//			}
+//			JGitHelper.createNewFolder(newc);
 			try(Git git = new Git(repo)){
 				List<DiffEntry> diffs = git.diff().
 						setOldTree(oldTreeParser).
 						setNewTree(newTreeParser).
 //						setPathFilter(PathSuffixFilter.create(".java")).
 						call();
+				List<DiffEntry> diffs1 = git.diff().
+						setOldTree(newTreeParser).
+						setNewTree(c1TreeParser).
+//						setPathFilter(PathSuffixFilter.create(".java")).
+						call();
+				int count = 0;
 				for(DiffEntry entry: diffs) {
-					String pth = entry.getNewPath();
-					File out = JGitHelper.createCommitFile(newc, pth);
-					FileOutputStream output = new FileOutputStream(out);
+//					String pth = entry.getNewPath();
+//					File out = JGitHelper.createCommitFile(newc, pth);
+//					FileOutputStream output = new FileOutputStream(out);
 					System.out.println("Entry: " + entry + ", from: " + entry.getOldId() + ", to: " + entry.getNewId());
-					try(DiffFormatter formatter = new DiffFormatter(output)){
-						formatter.setRepository(repo);
-						formatter.format(entry);
-					}
+//					try(DiffFormatter formatter = new DiffFormatter(output)){
+//						formatter.setRepository(repo);
+//						formatter.format(entry);
+//					}
+					count++;
 				}
+				System.out.println(count);
 			}
 		}
-		System.out.println("End!");
+		System.out.println(" End!");
 	}
 	
 	private static AbstractTreeIterator prepareTreeParser(Repository repo, String cid) throws IOException {
